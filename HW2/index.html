@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/script.js" defer></script>
+    
+  </head>  
+  <body>
+    <main>
+      <div id="container">
+        <div id="add">
+          <form action="">
+           <fieldset>
+            <legend>Add an Employee</legend>
+            
+             <div class="input-wrapper" id="input-wrapper-first">
+                <label for="first">First Name</label>
+                <input type="text" id="first-name" name="first">
+             </div>
+             
+             <div class="input-wrapper" id="input-wrapper-last">
+                <label for="last">Last Name</label>
+                <input type="text" id="last-name" name="last">
+             </div>
+             
+             <div class="input-wrapper" id="input-wrapper-dept">
+                <label for="dept">Department</label>
+               <select id="dept">
+                 <option value="IT">IT</option>
+                 <option value = "COMP">Computer Science</option>
+                 <option value = "MATH">Mathematics</option>
+                 <option value = "BIO">Biology</option>
+                 <option value = "CE">Computer Engineering</option>
+                 <option value = "PHYS">Physics</option>
+               </select>
+             </div>
+             
+            <input id="submit" type="submit" value="Submit">
+           </fieldset>
+        </form>
+        </div>
+        
+        <div id="info">
+          <div id="employee">
+            <h2>
+              Employee Added
+            </h2>
+            <div class="info-wrapper" id="info-wrapper-name">
+              <h3>Name:</h3>
+              <span id="info-name"></span>
+            </div>
+            <div class="info-wrapper" id="info-wrapper-dept">
+              <h3>Department:</h3>
+              <span id="info-dept"></span>
+            </div>
+            <div class="info-wrapper" id="info-wrapper-id">
+              <h3>Employee ID:</h3>
+              <span id="info-id"></span>
+            </div>
+            <div class="info-wrapper" id="info-wrapper-date">
+              <h3>Hire Date:</h3>
+              <span id="info-date"></span>
+            </div>
+          </div>
+          
+          <div class="info-wrapper" id="employees-all">
+            <h3>Total Employees:</h3>
+            <span id="info-all"></span>
+          </div>
+        </div>
+        
+        <hr>
+
+        <div id="browser">
+          <h3>Current Browser:</h3>
+          <img id="browser-icon">
+        </div>
+      </div>
+    </main>
+    
+  </body>
+</html>

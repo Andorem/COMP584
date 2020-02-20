@@ -1,0 +1,45 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  background: gray;
+}
+
+#container {
+  background: white;
+  padding: 10px;
+  min-width: 200px;
+  max-width: 25%;
+}
+
+.input-wrapper {
+    margin-bottom: 10px;
+}
+
+.input-wrapper.label {
+    font-weight: bold;
+}
+
+#add, #info, #browser {
+    margin: 20px;
+}
+
+#employee {
+    display: none;
+}
+
+#employees-all h3 {
+    color: red;
+}
+
+.info-wrapper * {
+    display: inline-block;
+    margin: 0;
+}
+
+#browser-icon {
+    width: 50px;
+    height: 50px;
+}
+
+hr {
+    margin: 20px;
+}
