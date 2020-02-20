@@ -63,11 +63,11 @@ function displayHTML() {
 }
 
 function getBrowserIcon() {
-  if (navigator.userAgent.indexOf("Chrome") != -1) return 'images/chrome.png';
-  else if (navigator.userAgent.indexOf("Firefox") != -1) return 'images/firefox.png';
-  else if (navigator.userAgent.indexOf("Safari") != -1) return 'images/safari.png';
-  else if (navigator.userAgent.indexOf("Edg") != -1) return 'images/edge.png';
-  else if (navigator.userAgent.indexOf("IE") != -1) return 'images/why.png';
+  if (navigator.userAgent.indexOf("Chrome") != -1) return './images/chrome.png';
+  else if (navigator.userAgent.indexOf("Firefox") != -1) return './images/firefox.png';
+  else if (navigator.userAgent.indexOf("Safari") != -1) return './images/safari.png';
+  else if (navigator.userAgent.indexOf("Edg") != -1) return './images/edge.png';
+  else if (navigator.userAgent.indexOf("IE") != -1) return './images/why.png';
   else return 'images/default.png';
 }
 
